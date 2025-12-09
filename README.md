@@ -1,2 +1,35 @@
 # AI-Chess-Zero
-This is an AI Chess program.At least 3 levels of AI challenges, one above the others Build both H2M (interactive) and M2M (non-interactive) AI Chess Game to demonstrate Chess Bot in various levels of challenge. Highly recommend to add your own AI algorithm to beat the classical methods Extra marks will be given with nice looking interface.
+
+一个基于经典算法与神经网络的国际象棋AI系统，支持多种对战模式和难度级别，适合国际象棋AI学习与对战体验。
+
+
+## 项目简介
+
+AI-Chess-Zero 是一个开源国际象棋AI项目，集成了多种经典搜索算法与神经网络模型，提供人机对战、机机对战、AI性能评测等功能。项目旨在展示不同AI算法在棋类游戏中的应用，同时支持通过PGN棋谱数据训练神经网络AI，提升棋力水平。
+
+
+## 功能特点
+
+- **多AI算法支持**：包含随机走法、迭代加深极小极大、Alpha-Beta剪枝、神经网络等多种AI
+- **分级难度**：提供 Easy/Medium/Hard/Neural 四种难度，适配不同水平玩家
+- **丰富对战模式**：支持人机对战、机机对战，自带图形化界面
+- **神经网络训练**：可通过PGN棋谱数据训练自定义神经网络模型
+- **自动评测系统**：支持不同AI之间的自动化对战测试，生成胜率统计
+
+
+## 安装指南
+
+### 环境依赖
+- Python 3.8+
+- 核心依赖库：
+  - `python-chess`：国际象棋棋盘与规则处理
+  - `PyQt5`：图形化界面
+  - `tensorflow`：神经网络训练与推理
+  - `numpy`：数据处理
+  - `matplotlib`：训练曲线可视化
+
+### 安装步骤
+1. 克隆仓库
+   ```bash
+   git clone https://github.com/chchaiai/AI-Chess-Zero.git
+   cd AI-Chess-Zero
